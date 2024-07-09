@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-zinc-800 text-white">
+      <div class="p-6">
+        <h2 class="text-2xl tracking-tighter">Enter Account Details</h2>
+        <form action="/login" method="post" class="flex gap-4 my-2">
+          <input type="email" placeholder="E-mail" name="email" class="bg-zinc-700 px-2 rounded-md py-1 outline-none"/>
+          <input type="password" placeholder="Password" name="password" class="bg-zinc-700 px-2 rounded-md py-1 outline-none"/>
+          <input type="submit" value="Login" class="bg-blue-500 px-2 rounded-md"/>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
